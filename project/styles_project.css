@@ -1,0 +1,30 @@
+nav {
+    border: 5px solid #020086;
+    margin: 25px;
+    padding: 5px;
+    background-color: #ffffff;
+    text-align: center;  
+}
+
+a:hover {
+    background-color: #ff000041;
+}
+
+body {
+    background-color: #000dff;
+    color: #ffffff;
+    margin: 50px;
+}
+.m3 {
+    text-align: center;
+    margin: 50px;
+}
+
+table {background-color: red;}
+
+.home { width: 200px;} /*home screen images*/
+.series3 {width: 200px;} /*3 Series Photo Page 2*/
+
+
+/* .page2head {}page 2 heading*/ 
+
