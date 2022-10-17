@@ -15,16 +15,33 @@ body {
     color: #ffffff;
     margin: 50px;
 }
+
+
+
+
+
+/*Tables for Page 2*/
 .m3 {
     text-align: center;
     margin: 50px;
 }
+.m5 {
+    text-align: center;
+    margin: 50px;
+}
+
+/*Tables for Page 2*/
 
 table {background-color: red;}
 
 .home { width: 200px;} /*home screen images*/
-.series3 {width: 200px;} /*3 Series Photo Page 2*/
+.series3 {width: 200px;} /*3 Series/M3 Photo Page 2*/
+.series5 {width: 200px;} /*5 Series/M5 Photo Page 2*/
+.series8 {width: 200px;} /*8 Series/M8 Photo Page 2*/
 
 
+h1, p {
+    text-align: center;
+}
 /* .page2head {}page 2 heading*/ 
 
