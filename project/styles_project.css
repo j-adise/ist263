@@ -67,9 +67,10 @@ h1, p {
 
 table {background-color: #ff0000;}
 
-.home {width: 200px;} /*home screen images*/
-.homeimages{flex: 3;
-}
+.home {width: 200px;}/*home screen images*/
+.homeimages{  display: flex;}
+
+
 
 
 
