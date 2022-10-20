@@ -16,32 +16,67 @@ body {
     margin: 50px;
 }
 
-
-
-
-
-/*Tables for Page 2*/
+/*Series 3/ M3 Tables/ Images */
+.bmw3 {
+    display: flex;
+    
+}
 .m3 {
     text-align: center;
     margin: 50px;
+}
+.series3 {
+    width: 250px;
+    height: 200px;
+    } 
+/*Series 3/ M3 Tables */
+/*Series 5/ M5 Tables/ Images*/
+.bmw5 {
+    display: flex;
 }
 .m5 {
     text-align: center;
     margin: 50px;
 }
+.series5 {
+    width: 250px;
+    height: 200px;
+   } 
+/*Series 5/ M5 Tables/ Images*/
+/*Series 8/ M8 Tables/ Images*/
+.bmw8 {
+    display: flex;
+}
+.m8 {
+    text-align: center;
+    margin: 50px;
+}
+.series8 {
+    width: 300px;
+    height: 200px;
+    }
+/*Series 8/ M8 Tables/ Images*/
 
-/*Tables for Page 2*/
-
-table {background-color: red;}
-
-.home { width: 200px;} /*home screen images*/
-.series3 {width: 200px;} /*3 Series/M3 Photo Page 2*/
-.series5 {width: 200px;} /*5 Series/M5 Photo Page 2*/
-.series8 {width: 200px;} /*8 Series/M8 Photo Page 2*/
 
 
 h1, p {
     text-align: center;
 }
-/* .page2head {}page 2 heading*/ 
+
+
+
+table {background-color: #ff0000;}
+
+.home {width: 200px;} /*home screen images*/
+.homeimages{flex: 3;
+}
+
+
+
+
+
+
+
+
+
 
