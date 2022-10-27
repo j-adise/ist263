@@ -19,41 +19,37 @@ body {
 /*Series 3/ M3 Tables/ Images */
 .bmw3 {
     display: flex;
-    
-}
-.m3 {
     text-align: center;
     margin: 50px;
 }
+
 .series3 {
-    width: 250px;
-    height: 200px;
+    width: 20%;
+    height: 15%;
     } 
 /*Series 3/ M3 Tables */
 /*Series 5/ M5 Tables/ Images*/
 .bmw5 {
     display: flex;
-}
-.m5 {
     text-align: center;
     margin: 50px;
 }
+
 .series5 {
-    width: 250px;
-    height: 200px;
+    width: 20%;
+    height: 15%;
    } 
 /*Series 5/ M5 Tables/ Images*/
 /*Series 8/ M8 Tables/ Images*/
 .bmw8 {
     display: flex;
-}
-.m8 {
     text-align: center;
     margin: 50px;
 }
+
 .series8 {
-    width: 300px;
-    height: 200px;
+    width: 20%;
+    height: 15%;
     }
 /*Series 8/ M8 Tables/ Images*/
 

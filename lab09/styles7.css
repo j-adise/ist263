@@ -1,0 +1,80 @@
+h1 {
+    background-color: #554b4b;
+}
+
+body {
+    background-color: #ffffff; color: #ff0000;
+}
+a:visited {
+    background-color: #00ffff;
+}
+
+a:hover {
+    background-color: #ff6600;
+}
+nav {
+    border: 2px solid #fc8c03;
+    margin: 30px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.heading, .intro { text-align: center;}
+
+.evenrow {
+    background: purple; color: white
+}
+
+.foot{
+    
+    float: right;
+} 
+.row1{
+    display: flex;
+    background-color: #070085;
+    border-radius: 1em;
+    padding: 10px;}
+
+.contact{
+    flex: 2;
+}
+.email{
+    
+    flex: 1;
+}
+
+
+.row2{
+    display: flex;
+    background-color: #028500;
+    border-radius: 1em;
+    padding: 10px;}
+
+
+.row1, .row2{ margin: 10px;}
+
+
+
+div {border: #00ffff solid 4px;}
+
+.red {display: flex;
+
+}
+
+.green {
+text-align: center;
+flex: 4;}
+
+img {
+    width: 100px;          
+}
+
+.other {
+    background-color: #006eff;
+    border-radius: 1em;
+    padding: 10px;
+    float: right;
+}
+
+
+
