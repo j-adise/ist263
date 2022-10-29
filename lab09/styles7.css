@@ -55,6 +55,54 @@ nav {
 
 
 
+
+
+
+
+img {
+    width: 100px;          
+}
+
+.mainbox{
+    display: flex;
+
+    
+    
+}
+
+.otherskills {
+    background-color: #002c65;
+    border-radius: 1em;
+    padding: 10px;
+    justify-content: right;
+    
+}
+.two{
+    display: flex;
+    flex: 6;
+    justify-content: center;
+    
+}
+
+
+
+
+.main {
+    display: flex;
+
+
+}
+
+
+
+
+/* 
+.otherskills {
+    display: flex;
+    
+}
+
+
 div {border: #00ffff solid 4px;}
 
 .red {
@@ -76,45 +124,6 @@ img {
     border-radius: 1em;
     padding: 10px;
     justify-content: right;
-}
-
-
-.mainbox{
-    display: flex;
-    border: 3px solid red;
-
-    
-    
-}
-
-.otherskills {
-    background-color: #002c65;
-    border-radius: 1em;
-    padding: 10px;
-    justify-content: right;
-    
-}
-.two{
-    display: flex;
-    flex: 6;
-    justify-content: center;
-    
-}
-
-
-.main {
-    display: flex;
-
-
-}
-
-
-
-
-/* 
-.otherskills {
-    display: flex;
-    
 }
 */
 
