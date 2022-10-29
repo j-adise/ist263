@@ -57,24 +57,66 @@ nav {
 
 div {border: #00ffff solid 4px;}
 
-.red {display: flex;
-
+.red {
+    flex: 5;
 }
 
 .green {
 text-align: center;
-flex: 4;}
+
+
+}
 
 img {
     width: 100px;          
 }
 
-.other {
+.others {
     background-color: #006eff;
     border-radius: 1em;
     padding: 10px;
-    float: right;
+    justify-content: right;
 }
+
+
+.mainbox{
+    display: flex;
+    border: 3px solid red;
+
+    
+    
+}
+
+.otherskills {
+    background-color: #002c65;
+    border-radius: 1em;
+    padding: 10px;
+    justify-content: right;
+    
+}
+.two{
+    display: flex;
+    flex: 6;
+    justify-content: center;
+    
+}
+
+
+.main {
+    display: flex;
+
+
+}
+
+
+
+
+/* 
+.otherskills {
+    display: flex;
+    
+}
+*/
 
 
 
