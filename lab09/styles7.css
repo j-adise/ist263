@@ -60,7 +60,7 @@ nav {
 
 
 img {
-    width: 100px;          
+    width: 100px;       
 }
 
 .mainbox{
@@ -92,6 +92,13 @@ img {
 
 
 }
+
+
+.imageindex {
+    max-width: 100%;
+}
+
+
 
 
 
