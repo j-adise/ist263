@@ -20,6 +20,13 @@ nav {
 }
 
 
+@media only screen and (max-width: 600px) {
+    nav a {display:block ;}
+    span {display: none;}
+}
+    
+
+
 .heading, .intro { text-align: center;}
 
 .evenrow {
@@ -136,6 +143,4 @@ img {
     justify-content: right;
 }
 */
-
-
 
