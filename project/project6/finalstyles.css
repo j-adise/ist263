@@ -31,16 +31,16 @@ h1, h2, p, div {
     display: flex;
 }
 .title {
-    border: 2px solid red;
+    border: 2px solid rgb(255, 255, 255);
 
 }
 .car1 {
-    border: 2px solid rgb(255, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
     flex-wrap: wrap;
 
 }
 .car2 {
-    border: 2px solid rgb(255, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
     flex-wrap: wrap;
 
 }
@@ -94,3 +94,7 @@ h1, h2, p, div {
     width: 300px;
     padding: 50px;}
 /***********************/
+
+.footer {
+    float: right;
+}
