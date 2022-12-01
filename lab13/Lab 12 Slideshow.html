@@ -14,9 +14,9 @@
             width: 1200px;
             margin: auto; /* margin auto is centering this container */        
         }
-        #bigimages {margin-right: 100px;}
+        #bigimages {margin-right: 100px; float: left;}
         #planetinfo {padding: 100px;}
-        #thumbnails {width: 840px; margin: auto; padding-top: 20px;} 
+        #thumbnails {width: 840px; margin: auto; padding-top: 20px; clear: both;} 
         /* ^^ margin auto is centering this container */
         #mercurythumb, #venusthumb, #earththumb, #marsthumb, #jupiterthumb, #saturnthumb, #uranusthumb, #neptunethumb 
         {width: 100px;}
@@ -127,14 +127,14 @@
         </div>
     </div>
     <div id="thumbnails">
-        <img src="./Lab 12 Slideshow_files/mecury.jpg" alt="mercury" id="mercurythumb" onmouseover="planetsoff(); MercuryOn();">
-        <img src="./Lab 12 Slideshow_files/venus.jpg" alt="venus" id="venusthumb" onmouseover="planetsoff(); VenusOn();">
-        <img src="./Lab 12 Slideshow_files/earth.jpg" alt="earth" id="earththumb" onmouseover="planetsoff(); EarthOn();">
-        <img src="./Lab 12 Slideshow_files/mars.jpg" alt="mars" id="marsthumb" onmouseover="planetsoff(); MarsOn();">
-        <img src="./Lab 12 Slideshow_files/jupiter.jpg" alt="jupiter" id="jupiterthumb" onmouseover="planetsoff(); JupiterOn();">
-        <img src="./Lab 12 Slideshow_files/saturn.jpg" alt="saturn" id="saturnthumb" onmouseover="planetsoff(); SaturnOn();">
-        <img src="./Lab 12 Slideshow_files/uranus.jpg" alt="uranus" id="uranusthumb" onmouseover="planetsoff(); UranusOn();">
-        <img src="./Lab 12 Slideshow_files/neptune.jpg" alt="neptune" id="neptunethumb" onmouseover="planetsoff(); NeptuneOn();">
+        <img src="./Lab 12 Slideshow_files/mecury.jpg" alt="mercury" id="mercurythumb" onclick="planetsoff(); MercuryOn();">
+        <img src="./Lab 12 Slideshow_files/venus.jpg" alt="venus" id="venusthumb" onclick="planetsoff(); VenusOn();">
+        <img src="./Lab 12 Slideshow_files/earth.jpg" alt="earth" id="earththumb" onclick="planetsoff(); EarthOn();">
+        <img src="./Lab 12 Slideshow_files/mars.jpg" alt="mars" id="marsthumb" onclick="planetsoff(); MarsOn();">
+        <img src="./Lab 12 Slideshow_files/jupiter.jpg" alt="jupiter" id="jupiterthumb" onclick="planetsoff(); JupiterOn();">
+        <img src="./Lab 12 Slideshow_files/saturn.jpg" alt="saturn" id="saturnthumb" onclick="planetsoff(); SaturnOn();">
+        <img src="./Lab 12 Slideshow_files/uranus.jpg" alt="uranus" id="uranusthumb" onclick="planetsoff(); UranusOn();">
+        <img src="./Lab 12 Slideshow_files/neptune.jpg" alt="neptune" id="neptunethumb" onclick="planetsoff(); NeptuneOn();">
     </div>
 
 </div>
