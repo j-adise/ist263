@@ -6,19 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sports Activity Vehicles</title>
     <link rel="stylesheet" href="finalstyles.css">
-    <link rel="shortcut icon" type="image/x-icon" href="/project/media/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="../media/favicon.ico">
+    <script>
+        function showNav () {
+            document.getElementById("navlinks").style.display = "block";
+        }
+        function hideNav () {
+            document.getElementById("navlinks").style.display = "none";
+        }
+    </script>
 </head>
 <body>
     <p id="skip" tabindex="1">Skip to Content</p><br>
     <header>
-        <nav>
-            <a href="homepage.html" tabindex="2">Home</a>
-            <a href="pagetwo.html" tabindex="3">Sedans & Gran Coupes</a>
-            <a href="pagethree.html" tabindex="4">Sports Activity Vehicles</a>
-        </nav>
+            <div id="row">
+                <div>
+                    <img src="../media/hamburger.png" id="hamicon" onclick="showNav();">
+                </div>
+                <div>
+                    <p id="close" onclick="hideNav();">X</p>
+                </div>
+            </div>
+            <nav id="navlinks">
+                <a href="homepage.html" tabindex="1">Home</a> <span> | </span>
+                <a href="pagetwo.html" tabindex="2">Sedans & Gran Coupes</a> <span> | </span>
+                <a href="pagethree.html" tabindex="3">Sports Activity Vehicles</a>
+            </nav>
         <div>
             <h1 tabindex="5">Sports Activity Vehicle</h1>
-            <h2 tabindex="6">Show specs comparisons of the BMW X3, X5, and X6 Series with their respective M series; BMW X3 M, X5 M, and X6 M</h2>
+            <h2 tabindex="6">Show specs comparisons of the BMW X3, X5, and X6 Series with their respective M series; BMW X3 M, X5 M, and X6 M</h2>        
         </div>
     </header>
 
@@ -58,7 +74,10 @@
                 <img class="x3" src="../media/BMW_X3_M.jpg" alt="BMW x3 M White SUV: " tabindex="11">
             </div>
         </div>
-        
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="secondcar">
             <div>
                 <img class="x5" src="../media/BMW_X5.jpg" alt="BMW x5: Black SUV" tabindex="14">
@@ -98,7 +117,10 @@
                 <div class="car2"><p>Harman Kardon® Surround Sound Audio System with 464-watt amplifier and 16 speakers</p></div>
             </div>
         </div>
-        
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="thirdcar">
             <div tabindex="17">
                 <div class="title"><p>Model:</p></div>
@@ -138,7 +160,21 @@
                 <img class="x6" src="../media/BMW_X6_M.jpg" alt="BMW x6 M: Silver SUV" tabindex="21">
             </div>
         </div>
-
+        <div class="smallhomeimages">
+            <div class="smallimageshome">
+                <div>
+                    <div><img src="../media/BMW_x3.jpg" alt="BMW x3: Black SUV" tabindex="9"> <img src="../media/BMW_X3_M.jpg" alt="BMW x3 M White SUV: " tabindex="11"></div>
+                    <div>BMW x3 &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp BMW x3 M</div>
+                </div>
+                <div>
+                    <div><img src="../media/BMW_X5.jpg" alt="BMW x5: Black SUV" tabindex="14"> <img src="../media/BMW_X5_M.jpeg" alt=" BMW x5 M: White SUV" tabindex="16"></div>
+                    <div>BMW x5 &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp BMW x5 M</div>
+                </div>
+                <div>
+                    <div><img src="../media/BMW_X6.jpg" alt="BMW x6: Blue SUV" tabindex="19"> <img src="../media/BMW_X6_M.jpg" alt="BMW x6 M: Silver SUV" tabindex="21"></div>
+                    <div>BMW x6 &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp BMW x6 M</div>
+                </div>
+        </div>
     <hr>
     <footer>
         <p class="footer"> &#169; <Strong>2022</Strong></p>

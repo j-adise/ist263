@@ -6,15 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sedans & Gran Coupes</title>
     <link rel="stylesheet" href="finalstyles.css">
-    <link rel="shortcut icon" type="image/x-icon" href="/project/media/favicon.ico"></head>
+    <link rel="shortcut icon" type="image/x-icon" href="../media/favicon.ico"></head>
+    <script>
+        function showNav () {
+            document.getElementById("navlinks").style.display = "block";
+        }
+        function hideNav () {
+            document.getElementById("navlinks").style.display = "none";
+        }
+    </script>
 <body>
     <p id="skip" tabindex="1">Skip to Content</p><br>
     <header>
-        <nav>
-            <a href="homepage.html" tabindex="2">Home</a>
-            <a href="pagetwo.html" tabindex="3">Sedans & Gran Coupes</a>
-            <a href="pagethree.html" tabindex="4">Sports Activity Vehicles</a>
-        </nav>
+            <div id="row">
+                <div>
+                    <img src="../media/hamburger.png" id="hamicon" onclick="showNav();">
+                </div>
+                <div>
+                    <p id="close" onclick="hideNav();">X</p>
+                </div>
+            </div>
+            <nav id="navlinks">
+                <a href="homepage.html" tabindex="1">Home</a> <span> | </span>
+                <a href="pagetwo.html" tabindex="2">Sedans & Gran Coupes</a> <span> | </span>
+                <a href="pagethree.html" tabindex="3">Sports Activity Vehicles</a>
+            </nav>
         <div>
         <h1 tabindex="5">Sedans & Gran Coupes</h1>
         <h2 tabindex="6">Show specs comparisons of the BMW 3, 5, and 8 Series with their respective M series; BMW M3, M5, and M8</h2>
@@ -62,9 +78,11 @@
                 <img class="series3" src="../media/BMW_3_series.jpeg" alt="BMW 3 Series: Maroon/Red Sedan" tabindex="9">
                 <img class="series3" src="../media/BMW_M3.jpeg" alt="BMW M3: Red Sedan" tabindex="11">
             </div>
-
         </div>
-
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="secondcar">
             <div>
                 <img class="series5" src="../media/BMW_5_Series.png" alt="BMW Series 5: Blue Sedan" tabindex="14">
@@ -107,6 +125,10 @@
                 <div class="car2"><p>Harman Kardon® Surround Sound Audio System with 464-watt amplifier and 16 speakers</p></div>
             </div>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="thirdcar">
             <div tabindex="17">
                 <div class="title"><p>Model:</p></div>
@@ -145,9 +167,24 @@
                 <div class="car2"><p>Harman Kardon® Surround Sound Audio System with 464-watt amplifier and 16 speakers</p></div>
             </div>
             <div>
-                <img class="series8" src="../media/2018_BMW_8_Series.jpeg" alt="BMW Series 8: Blue Sedan" tabindex="19">
+                <img class="series8" src="../media/BMW_8_Series.jpeg" alt="BMW Series 8: Blue Sedan" tabindex="19">
                 <img class="series8" src="../media/BMW_M8.jpg" alt="BMW M8: Black Sedan" tabindex="21">
             </div>
+        </div>
+        <div class="smallhomeimages">
+            <div class="smallimageshome">
+                <div>
+                    <div><img src="../media/BMW_3_series.jpeg" alt="BMW 3 Series: Maroon/Red Sedan" tabindex="9"> <img src="../media/BMW_M3.jpeg" alt="BMW M3: Red Sedan" tabindex="11"></div>
+                    <div>BMW Series 3 &nbsp &nbsp &nbsp &nbsp BMW M3</div>
+                </div>
+                <div>
+                    <div><img src="../media/BMW_5_Series.png" alt="BMW Series 5: Blue Sedan" tabindex="14"> <img src="../media/BMW_M5.jpg" alt=" BMW M5: Red Sedan" tabindex="16"></div>
+                    <div>BMW Series 5 &nbsp &nbsp &nbsp &nbsp BMW M5</div>
+                </div>
+                <div>
+                    <div><img src="../media/BMW_8_Series.jpeg" alt="BMW Series 8: Blue Sedan" tabindex="19">  <img src="../media/BMW_M8.jpg" alt="BMW M8: Black Sedan" tabindex="21"></div>
+                    <div>BMW Series 8 &nbsp &nbsp &nbsp &nbsp BMW M8</div>
+                </div>
         </div>
     </main>
     <hr>

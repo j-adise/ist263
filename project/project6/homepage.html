@@ -7,9 +7,25 @@
     <title>Home</title>
     <link rel="stylesheet" href="finalstyles.css">
     <link rel="shortcut icon" type="image/x-icon" href="../media/favicon.ico"></head>
+    <script>
+        function showNav () {
+            document.getElementById("navlinks").style.display = "block";
+        }
+        function hideNav () {
+            document.getElementById("navlinks").style.display = "none";
+        }
+    </script>
 <body>
     <header>
-        <nav>
+        <div id="row">
+            <div>
+                <img src="../media/hamburger.png" id="hamicon" onclick="showNav();">
+            </div>
+            <div>
+                <p id="close" onclick="hideNav();">X</p>
+            </div>
+        </div>
+        <nav id="navlinks">
             <a href="homepage.html" tabindex="1">Home</a> <span> | </span>
             <a href="pagetwo.html" tabindex="2">Sedans & Gran Coupes</a> <span> | </span>
             <a href="pagethree.html" tabindex="3">Sports Activity Vehicles</a>

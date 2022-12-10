@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 
+html {
+    margin: 100px;
+}
+
 nav, h1, h2, p, div {font-family: 'Zen Dots', cursive;}
 nav { 
     border: 2px solid #0004ff;
@@ -81,9 +85,39 @@ h1, h2, p, div {
     .car1 {height: 91px;}
     .car2 {height: 91px;}
     .car2 p {font-size: 8px;}
-    img {display: none;}
+    .himg {max-width: 100%;}
 }
 /***********************/
+#hamicon {display: none;
+    height: 50px;}
+#close {
+    display: none;
+}
+.row {
+    display: flex;
+}
+
+@media only screen and (min-width: 800px) {
+    .smallhomeimages {display: none;}
+}
+@media only screen and (max-width: 600px) {
+    #hamicon {display: block;}
+    #navlinks a {display: block;}
+    #navlinks {display: none;}
+    #close {display: block;}
+    nav {font-size: 10px;
+    width: 150px;}
+    span {display: none;}
+    html { margin: 20px;}
+    .series3, .series5, .series8, .x3, .x5, .x6 {display: none;}
+    .smallhomeimages img {width: 150px;}
+    div{justify-content: center;}
+}
+
+
+
+
+
 
 
 
@@ -93,7 +127,7 @@ h1, h2, p, div {
     justify-content: center;
 }
 .himg {
-    width: 200px;
+    width: 150px;
     padding: 20px;
 }
 .homevideo {
