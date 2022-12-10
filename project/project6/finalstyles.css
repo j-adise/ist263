@@ -1,14 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+nav, h1, h2, p, div {font-family: 'Zen Dots', cursive;}
 nav { 
     border: 2px solid #0004ff;
     margin: 30px;
     padding: 10px;
     background-color: #ffffff;
 }
-
 .home {
     text-align: center;
 }
-
 /***********************/
 /****Overall Styling****/
 html {                               
@@ -18,8 +19,19 @@ h1, h2, p, div {
     color: white;
 }
 /***********************/
+/****Skip to Content****/
+#skip {
+    background-color: #ffa500;
+    border: 1px solid #000000;
+    padding: 2px;
+    position: absolute; /* Out of page flow for layout */
+    left: -999px;
 
-
+}
+#skip:focus {
+    left: 10px;
+}
+/***********************/
 /***********************/
 .firstcar {
     display: flex;
@@ -29,20 +41,32 @@ h1, h2, p, div {
 }
 .thirdcar {
     display: flex;
+
 }
 .title {
     border: 2px solid rgb(255, 255, 255);
+    height: 75px;
 
 }
 .car1 {
     border: 2px solid rgb(255, 255, 255);
     flex-wrap: wrap;
+    height: 75px;
 
 }
 .car2 {
     border: 2px solid rgb(255, 255, 255);
     flex-wrap: wrap;
+    height: 75px;
 
+
+}
+.AccessNext{
+    border: 2px solid rgb(255, 255, 255);
+    flex-wrap: wrap;
+    height: 75px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 /***********************/
 
@@ -51,9 +75,13 @@ h1, h2, p, div {
     .title {padding: 8px;}
     h1,h2 {text-align: center;}
     nav{font-size: 12.5px;}
+    p{font-size: 9px;}
     img {max-width: 180%;}
-
-    
+    .title {height: 94;}
+    .car1 {height: 91px;}
+    .car2 {height: 91px;}
+    .car2 p {font-size: 8px;}
+    img {display: none;}
 }
 /***********************/
 
