@@ -1,42 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 
-html {
+
+
+/****Overall Styling****/
+html {                               
+    background-color: black;
     margin: 100px;
 }
-
-nav, h1, h2, p, div {font-family: 'Zen Dots', cursive;}
+h1, h2, p, div {                      
+    color: white;
+}
+nav, h1, h2, p, div {
+    font-family: 'Zen Dots', cursive;
+}
+.intro {
+    text-align: center;
+}
+/************************/
+/*********Font**********/
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+/***********************/
+/*********Nav**********/
 nav { 
     border: 2px solid #0004ff;
     margin: 30px;
     padding: 10px;
     background-color: #ffffff;
 }
-.home {
-    text-align: center;
+/*Drop Down Nav*/
+#hamicon {
+    display: none;
+    height: 50px;}
+#close {
+    display: none;
 }
-/***********************/
-/****Overall Styling****/
-html {                               
-    background-color: black;
+.row {
+    display: flex;
 }
-h1, h2, p, div {                      
-    color: white;
-}
-/***********************/
-/****Skip to Content****/
-#skip {
-    background-color: #ffa500;
-    border: 1px solid #000000;
-    padding: 2px;
-    position: absolute; /* Out of page flow for layout */
-    left: -999px;
-
-}
-#skip:focus {
-    left: 10px;
-}
-/***********************/
-/***********************/
+/********************/
+/*******Car Info********/
 .firstcar {
     display: flex;
 }
@@ -45,83 +47,23 @@ h1, h2, p, div {
 }
 .thirdcar {
     display: flex;
-
 }
 .title {
     border: 2px solid rgb(255, 255, 255);
     height: 75px;
-
 }
 .car1 {
     border: 2px solid rgb(255, 255, 255);
     flex-wrap: wrap;
     height: 75px;
-
 }
 .car2 {
     border: 2px solid rgb(255, 255, 255);
     flex-wrap: wrap;
     height: 75px;
-
-
-}
-.AccessNext{
-    border: 2px solid rgb(255, 255, 255);
-    flex-wrap: wrap;
-    height: 75px;
-    margin-bottom: 20px;
-    text-align: center;
 }
 /***********************/
-
-/************Different Screen Sizes***********/
-@media only screen and (max-width: 600px) {
-    .title {padding: 8px;}
-    h1,h2 {text-align: center;}
-    nav{font-size: 12.5px;}
-    p{font-size: 9px;}
-    img {max-width: 180%;}
-    .title {height: 94;}
-    .car1 {height: 91px;}
-    .car2 {height: 91px;}
-    .car2 p {font-size: 8px;}
-    .himg {max-width: 100%;}
-}
-/***********************/
-#hamicon {display: none;
-    height: 50px;}
-#close {
-    display: none;
-}
-.row {
-    display: flex;
-}
-
-@media only screen and (min-width: 800px) {
-    .smallhomeimages {display: none;}
-}
-@media only screen and (max-width: 600px) {
-    #hamicon {display: block;}
-    #navlinks a {display: block;}
-    #navlinks {display: none;}
-    #close {display: block;}
-    nav {font-size: 10px;
-    width: 150px;}
-    span {display: none;}
-    html { margin: 20px;}
-    .series3, .series5, .series8, .x3, .x5, .x6 {display: none;}
-    .smallhomeimages img {width: 150px;}
-    div{justify-content: center;}
-}
-
-
-
-
-
-
-
-
-/***Sizes Home Page Video and Images***/
+/***Sizes all Images***/
 .homeimages {
     display: flex;
     justify-content: center;
@@ -134,8 +76,6 @@ h1, h2, p, div {
     display: flex;
     justify-content: center ;
 }
-/***********************/
-/***Sizes all Images***/
 .series3 {
     width: 300px;
     padding: 50px;
@@ -155,8 +95,49 @@ h1, h2, p, div {
 .x6 {
     width: 300px;
     padding: 50px;}
-/***********************/
-
+/*******************/
+/******Footer******/
 .footer {
     float: right;
 }
+/****************/
+/****Skip to Content****/
+#skip {
+    background-color: #ffa500;
+    border: 1px solid #000000;
+    padding: 2px;
+    position: absolute; /* Out of page flow for layout */
+    left: -999px;
+}
+#skip:focus {
+    left: 10px;
+}
+/***********************/
+/************Different Screen Sizes***********/
+@media only screen and (max-width: 600px) {
+    .title {padding: 8px;}
+    h1,h2 {text-align: center;}
+    nav{font-size: 12.5px;}
+    p{font-size: 9px;}
+    img {max-width: 180%;}
+    .title {height: 94;}
+    .car1 {height: 91px;}
+    .car2 {height: 91px;}
+    .car2 p {font-size: 8px;}
+    .himg {max-width: 100%;}
+    #hamicon {display: block;}
+    #navlinks a {display: block;}
+    #navlinks {display: none;}
+    #close {display: block;}
+    nav {font-size: 10px;
+    width: 150px;}
+    span {display: none;}
+    html { margin: 20px;}
+    .series3, .series5, .series8, .x3, .x5, .x6 {display: none;}
+    .smallhomeimages img {width: 150px;}
+    div{justify-content: center;}
+}
+@media only screen and (min-width: 800px) {
+    .smallhomeimages {display: none;}
+}
+/***********************/
