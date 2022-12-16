@@ -72,14 +72,6 @@ nav {
     width: 150px;
     padding: 20px;
 }
-.homevideo {
-    display: flex;
-    justify-content: center ;
-}
-.homevideosmall {
-    display: flex;
-    justify-content: center;
-}
 .series3 {
     width: 300px;
     padding: 50px;
@@ -141,9 +133,11 @@ nav {
     .smallhomeimages img {width: 150px;}
     div{justify-content: center;}
     .homevideo{display: none;}
+    .homevideosmall{display: flex; justify-content: center;}
 }
 @media only screen and (min-width: 800px) {
     .smallhomeimages {display: none;}
     .homevideosmall{display: none;}
+    .homevideo{display: flex; justify-content: center;}
 }
 /***********************/
